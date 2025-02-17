@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jado Barbershop - Booking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-nav .nav-link {
+            color: white !important; 
+            transition: color 0.3s ease; 
+            margin: 10px; 
+        }
+
+        .navbar-nav .nav-link:hover,
+        .navbar-nav .nav-link.active {
+            color: yellow !important; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="https://jadobarbershop.com/wp-content/uploads/2020/07/jado-300x236.png" alt="Jado Barbershop Logo" class="rounded-circle" height="50">
+                    <span class="ms-2 text-warning">Jado Barbershop</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="barbers.html">Our Barbers</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="location.html">Location</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="booking.html">Book Now</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container py-5">
+        <h1 class="text-center mb-4">Our Location</h1>
+        <div class="row">
+            <div class="col-lg-7 mb-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.907041726946!2d-75.69238468444403!3d45.41754497910066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce04540b77e3bb%3A0x4a7a6a8b0b3b3b3b!2s244%20Bank%20St%2C%20Ottawa%2C%20ON%20K2P%201X4!5e0!3m2!1sen!2sca!4v1633020000000!5m2!1sen!2sca" 
+                        width="100%" height="700" class="border-0" allowfullscreen title="Google Maps location of Jado Barbershop"></iframe>
+            </div>
+            <div class="col-lg-5 d-flex flex-column align-items-center">
+                <div class="mb-3">
+                    <h2 class="text-center">Visit Us</h2>
+                    <ul></ul>
+                    <p><strong>Address:</strong> 244 Bank Street, Ottawa, ON, K2P 1X4</p>
+                    <p><strong>Phone:</strong> (613) 569-2257</p>
+                    <p><strong>Hours:</strong> Monday - Sunday 11:00 AM - 7:00 PM</p>
+                </div>
+                <img src="https://ssmscdn.yp.ca/image/resize/abae76f5-c666-4df6-8452-3fa3f524ea2b/ypui-m-mp-pic-gal-lg/jado-barber-shop-2.jpg" 
+                     alt="Jado Barbershop Interior" class="img-fluid rounded shadow mt-3 w-80">
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

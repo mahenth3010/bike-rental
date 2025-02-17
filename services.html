@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jado Barbershop - Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-nav .nav-link {
+            color: white !important; 
+            transition: color 0.3s ease; 
+            margin: 10px; 
+        }
+
+        .navbar-nav .nav-link:hover,
+        .navbar-nav .nav-link.active {
+            color: yellow !important; 
+        }
+
+        .service-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease; 
+        }
+
+        .service-card:hover {
+            transform: scale(1.05); 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        }
+
+        .card-img-custom {
+            height: 150px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="https://jadobarbershop.com/wp-content/uploads/2020/07/jado-300x236.png" alt="Jado Barbershop Logo" class="rounded-circle" height="50">
+                    <span class="ms-2 text-warning">Jado Barbershop</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="barbers.html">Our Barbers</a></li>
+                        <li class="nav-item"><a class="nav-link" href="location.html">Location</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="booking.html">Book Now</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container my-4">
+        <h1 class="text-center mb-4">Our Services</h1>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card h-100 shadow service-card">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Beard Trim</h5>
+                                <p class="card-text">20 minutes - $20 and up</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://d2zdpiztbgorvt.cloudfront.net/region1/ca/21216/biz_photo/0d4e799b616e4c43866835e9f975eb-signature-fades-biz-photo-429a91cdab55451cb2348aa6213b8c-booksy.jpeg" 
+                                 class="img-fluid rounded-end card-img-custom" alt="Beard Trim">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 shadow service-card">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Men's Haircut</h5>
+                                <p class="card-text">20 minutes - $22 and up</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://artursbarbershop.com/wp-content/uploads/2021/09/AdobeStock_295665916-scaled.jpeg" 
+                                 class="img-fluid rounded-end card-img-custom" alt="Men's Haircut">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 shadow service-card">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Haircut & Beard Trim</h5>
+                                <p class="card-text">50 minutes - $40 and up</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://www.shutterstock.com/image-photo/closeup-man-having-his-beard-600nw-2455786645.jpg" 
+                                 class="img-fluid rounded-end card-img-custom" alt="Haircut and Beard Trim">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 shadow service-card">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Eyebrows Men</h5>
+                                <p class="card-text">10 minutes - $15</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://thumbs.dreamstime.com/b/professional-barber-white-shirt-doing-threading-procedure-correcting-shape-eyebrows-to-young-male-client-sitting-132861865.jpg" 
+                                 class="img-fluid rounded-end card-img-custom" alt="Eyebrows Men">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 shadow service-card">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Women's Haircut</h5>
+                                <p class="card-text">30 minutes - $25 and up</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://t4.ftcdn.net/jpg/03/43/45/43/360_F_343454335_Xcu6YdChg7WYqk3QxBrSqYiQpNwtZ1Ox.jpg" 
+                                 class="img-fluid rounded-end card-img-custom" alt="Women Haircut">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 shadow service-card">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Champi (Head Massage)</h5>
+                                <p class="card-text">10 minutes - $10 and up</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://www.shutterstock.com/image-photo/asian-attractive-young-male-get-600nw-2182753063.jpg" 
+                                 class="img-fluid rounded-end card-img-custom" alt="Champi">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
